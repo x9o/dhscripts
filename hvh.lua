@@ -302,15 +302,15 @@ local bypass = {
 
 for i = 1, 100 do
     if i == 1 then
-        StatusText = "Waiting For Game... "
+        StatusText = "FUCK AN SEX NIGGA "
         repeat task.wait() until game:IsLoaded()
     elseif i == 10 then
-        StatusText = "Waiting For Character..."
+        StatusText = "FUCK AN SEX NIGGA"
         repeat task.wait() until game.Players.LocalPlayer.Character:FindFirstChild("FULLY_LOADED_CHAR")
     elseif i == 65 then
-        StatusText = "Bypass Successful"
+        StatusText = "BFUCK AN SEX NIGGAl"
     elseif i == 75 then
-        StatusText = "Loading User-Interface"
+        StatusText = "FUCK AN SEX NIGGA"
     elseif i == 90 then
         StatusText = "Welcome, " .. game.Players.LocalPlayer.DisplayName
     end
