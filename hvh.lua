@@ -307,21 +307,6 @@ for i = 1, 100 do
     elseif i == 10 then
         StatusText = "Waiting For Character..."
         repeat task.wait() until game.Players.LocalPlayer.Character:FindFirstChild("FULLY_LOADED_CHAR")
-    elseif i == 50 then
-        StatusText = "Bypassing Anti-Cheat..."
-        if game.PlaceId == 2788229376 or game.PlaceId == 7213786345 then
-            StatusText = "Bypassing Da Hood Anti-Cheat..."
-            bypass.dahood()
-        elseif game.PlaceId == 5602055394 or game.PlaceId == 7951883376 then
-            StatusText = "Bypassing Hood Modded Anti-Cheat..."
-            bypass.hoodmodded()
-        elseif game.PlaceId == 9183932460 or game.PlaceId == 9435785899 then
-            StatusText = "Bypassing Untitled Hood Anti-Cheat..."
-            bypass.untitledhood()
-        elseif table.find(utility.adonis_games, game.PlaceId) then
-            StatusText = "Bypassing Adonis Anti-Cheat..."
-            bypass.adonis()
-        end
     elseif i == 65 then
         StatusText = "Bypass Successful"
     elseif i == 75 then
